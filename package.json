@@ -1,0 +1,16 @@
+{
+  "name": "eslint-disable-directives-testing",
+  "version": "1.0.0",
+  "description": "Testing --report-unused-disable-directives default behavior",
+  "main": "index.js",
+  "scripts": {
+    "lint:default": "eslint index.js",
+    "lint:unused": "npm run lint:default -- --report-unused-disable-directives"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^7.24.0"
+  }
+}
